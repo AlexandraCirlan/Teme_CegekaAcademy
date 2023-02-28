@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PetShelterDemo/1.0.0": {
+        "dependencies": {
+          "PetShelterDemo.Domain": "1.0.0"
+        },
+        "runtime": {
+          "PetShelterDemo.dll": {}
+        }
+      },
+      "PetShelterDemo.DAL/1.0.0": {
+        "runtime": {
+          "PetShelterDemo.DAL.dll": {}
+        }
+      },
+      "PetShelterDemo.Domain/1.0.0": {
+        "dependencies": {
+          "PetShelterDemo.DAL": "1.0.0"
+        },
+        "runtime": {
+          "PetShelterDemo.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PetShelterDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PetShelterDemo.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PetShelterDemo.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
